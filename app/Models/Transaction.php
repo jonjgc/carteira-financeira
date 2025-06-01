@@ -10,4 +10,9 @@ class Transaction extends Model
     use HasFactory;
 
     protected $fillable = ['wallet_id', 'amount', 'type', 'related_transaction_id'];
+
+    public function wallet()
+    {
+        return $this->belongsTo(Wallet::class);
+    }
 }
