@@ -15,7 +15,6 @@ A API utiliza **MySQL** como banco de dados principal e a autenticação é feit
 - PHP >= 8.1
 - Composer
 - MySQL >= 5.7
-- SQLite (para testes)
 - Node.js e NPM (opcional)
 - Insomnia ou Postman
 - Git
